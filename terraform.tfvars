@@ -8,7 +8,7 @@ kubernetes_version        = "1.33"
 
 # Addon Versions
 vpc_cni_version           = "v1.19.3-eksbuild.1"
-coredns_version           = "v1.11.4-eksbuild.2"
+#coredns_version           = "v1.11.4-eksbuild.2"
 kube_proxy_version        = "v1.32.0-eksbuild.2"
 
 # Master Security Group ID
