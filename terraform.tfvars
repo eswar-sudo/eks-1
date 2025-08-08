@@ -12,6 +12,6 @@ coredns_version           = "v1.11.4-eksbuild.2"
 kube_proxy_version        = "v1.32.0-eksbuild.2"
 
 # Master Security Group ID
-#master_security_group_id = "sg-0fb9ca50681964d43"
+master_security_group_id = "sg-04d21240bb0435c06"
 owner                    = "core"
 project                  = "core"                     
