@@ -33,5 +33,4 @@ resource "aws_eks_addon" "core_dns" {
   resolve_conflicts_on_create   = "OVERWRITE"
   resolve_conflicts_on_update   = "OVERWRITE"
   service_account_role_arn = aws_iam_role.eks_admin.arn
-  tags              = var.tags
-  }
+}
