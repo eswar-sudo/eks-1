@@ -20,10 +20,10 @@ variable "subnet_ids" {
   type        = list(string)
 }
 
-variable "availability_zones" {
-  description = "List of availability zones"
-  type        = list(string)
-}
+#variable "availability_zones" {
+ # description = "List of availability zones"
+ # type        = list(string)
+#}
 
 # Addon versions
 variable "vpc_cni_version" {
