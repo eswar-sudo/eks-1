@@ -38,6 +38,11 @@ variable "kube_proxy_version" {
   default     = "v1.32.0-eksbuild.2"
 }
 
+variable "coredns_version" {
+  description = "Version of the CoreDNS add-on"
+  type        = string
+}
+
 # Tags
 variable "environment" {
   description = "env, deplyed into"
